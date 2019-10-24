@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: black;
+}
+.container{
+    width: 80%;
+    height:100vh;
+    margin:0 auto;
+    background-color:white;
+}
+header{
+    background-color: black;
+    height:17vh;
+    width:100%;
+    position: fixed;
+    text-align: center;
+    color: white;
+    top: 0%;
+    
+}
+header h1{
+    font-size:33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30%;
+    
+}
+header i{
+    size: 30px;
+}
+header .headerb{
+    display: block;
+    display: flex;
+    justify-content:space-around;
+
+}
+header .headerb button{
+    border-radius: 20%;
+}
+header .headerb button:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+main{
+    margin-top:17vh;
+  
+}
+main img{
+    height:100%;
+    width: 100%;
+}
+footer{
+    /* margin-top:35vh; */
+    width: 105%;
+    height: 13vh;
+    background-color: black;
+}
+

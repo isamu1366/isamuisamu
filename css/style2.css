@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    height:100%;
+    margin:0 auto;
+    background-color:white;
+}
+header{
+    background-color: black;
+    height:17vh;
+    width:100%;
+    position: fixed;
+    /* position:absolute; */
+    text-align: center;
+    color: white;
+    top: 0%;
+    
+}
+header h1{
+    font-size:33px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30%;
+    
+}
+header i{
+    size: 30px;
+}
+header .headerb{
+    display: block;
+    display: flex;
+    justify-content:space-around;
+
+}
+header .headerb button{
+    border-radius: 20%;
+}
+header .headerb button:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+aside{
+    margin-top:17vh;
+    height: 10vh;
+    font-size: 25px;   
+    text-align: center; 
+}
+article{
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article .workl{
+    display: block;
+    width: 30vh;
+}
+article .workr{
+    display: block;
+   width: 60vh;
+}
+.workl li{
+    width: 30%;
+    border: black 2px solid;
+    margin:0 15vh;
+    display: flex;
+    flex-direction: column;
+}
+.workl li:nth-child(2n){
+    margin: 28vh 15vh;
+}
+.workr li:nth-child(2n){
+    margin:15vh 0;
+    
+}
+main{
+    width:60%;
+    height: 40%;
+    margin: 0 auto;
+}
+footer{
+    /* margin-top:35vh; */
+    width: 105%;
+    height: 13vh;
+    background-color: black;
+}
+
+@media screen and (max-width:960px){
+    
+    body{
+        background-color: white;
+        width: 95%;
+
+    }
+    .container{
+        width:100%;
+        height:100%;
+       text-align: center;
+        background-color:white;
+    }
+    header
+    {
+      position: absolute;
+    }
+    header h1{
+        margin:0 auto ;
+    }
+  article{
+      margin-left:10% ;
+      height: 100%;
+      width:80%;
+      
+  }  
+  main{
+      display: none;
+  }
+  .workl li{
+      width:70%;
+  }
+  .workr{
+      position: absolute;
+      font-size: 10px;
+  }
+  .workr li{
+      margin-top: 15%;
+  }
+  .workr li:nth-child(2){
+    margin-top:50%;
+}
+.workr li:nth-child(4){
+    margin-top: 30%;
+}}
